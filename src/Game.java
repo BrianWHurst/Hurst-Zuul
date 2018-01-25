@@ -46,6 +46,7 @@
  * - Modified goRoom method
  * - Modified printLocationInfo method
  * - Modified createRooms method to add items
+ * - Modified createRooms method. (added 2 more items.)
  *
  *   //TODO : - (implement a player class and create an
  *   inventory system using a collection)
@@ -122,8 +123,9 @@ public class Game {
         administration = new Room("in what appears to be the administration area.");
 
         // put items in the rooms
-        highRiskCellBlock.addItem(new Item("kite", "a letter containig a rough sketch of a map", 1));
-        administration.addItem(new Item("shackeles", "prisoner shackles", 3));
+        highRiskCellBlock.addItem(new Item("kite", "a letter containing a rough sketch of a map", 1));
+        administration.addItem(new Item("shackles", "prisoner shackles", 3));
+        administration.addItem(new Item("paper clips", "a pile of paper clips", 1));
         intake.addItem(new Item("court papers", "a prisoner's court paperwork", 1));
         intake.addItem(new Item("prison jumpsuit", "a neatly pressed, state-issued uniform", 3));
         courtYard.addItem(new Item("plastic shiv", "a toothbrush disguised as shrubbery and sharpened at one end", 2));
@@ -137,6 +139,7 @@ public class Game {
         messHall.addItem(new Item("orange", " a moldy citrus friut", 2));
         eastHall.addItem(new Item("trash", "a small pile of rubbish", 2));
         southHall.addItem(new Item("Wire", "mangled electrical wiring", 1));
+        southHall.addItem(new Item("pipe", "a lead pipe", 7));
         freeWorld.addItem(new Item("shrubs", "plants growing in the grass", 2));
 
 
