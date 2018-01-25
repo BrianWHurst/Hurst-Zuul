@@ -139,7 +139,7 @@ public class Game {
         messHall.addItem(new Item("food tray", "a dirty food tray", 4));
         messHall.addItem(new Item("hot coffee", "a mug full of hot liquid", 4));
         messHall.addItem(new Item("nutri-loaf", " a flavorless but nutritional food loaf", 3));
-        messHall.addItem(new Item("orange", " a moldy citrus friut", 2));
+        messHall.addItem(new Item("orange", " a moldy citrus fruit", 2));
         eastHall.addItem(new Item("trash", "a small pile of rubbish", 2));
         southHall.addItem(new Item("Wire", "mangled electrical wiring", 1));
         southHall.addItem(new Item("pipe", "a lead pipe", 7));
