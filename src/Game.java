@@ -1,3 +1,4 @@
+import java.util.Date;
 /**
  * This class is the main class of the "World of Zuul" application.
  * "World of Zuul" is a very simple, text based adventure game.  Users
@@ -47,6 +48,8 @@
  * - Modified printLocationInfo method
  * - Modified createRooms method to add items
  * - Modified createRooms method. (added 2 more items.)
+ * - Imported Date
+ * - Modified printWelcome method to display the date
  *
  *   //TODO : - (implement a player class and create an
  *   inventory system using a collection)
@@ -208,6 +211,8 @@ public class Game {
      * Print out the opening message for the player.
      */
     private void printWelcome() {
+        System.out.println();
+        System.out.println(new Date());
         System.out.println();
         System.out.println("Welcome to Zuul Prison!");
         System.out.println("Your goal is to escape to the free world.");
